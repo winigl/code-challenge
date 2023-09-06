@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(function (response) {
                 if (response.status === 201) {
                     alert("Datos enviados correctamente.");
+                    console.log(data)
                 } else {
                     alert("Error al enviar los datos.");
                 }
